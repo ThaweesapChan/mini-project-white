@@ -1,0 +1,16 @@
+@media only screen and (max-width: 648px) {
+  .content-container {
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+  }
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+}
+
+@media only screen and (min-width: 648px) {
+  .content-container {
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 75%);
+  }
+}
