@@ -4,18 +4,215 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./style.css" />
     <title>Mini-project</title>
+
+    <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!-- dev tae  -->
+    <section class="relative">
+      <div class="relative flex justify-center z-20">
+        <nav
+          class="flex justify-between pt-4 pb-4 border-b border-[#8480AE29] w-full px-[50px] lg:w-3/4 lg:pt-9 lg:px-0 lg:border-none 2xl:w-3/5 2xl:mx-44"
+        >
+          <a class="w-40 lg:w-[160px]" href=""
+            ><img
+              src="./module/img/header-section/agencio-logo.svg"
+              alt="agencio logo"
+          /></a>
+
+          <!-- hamburger button -->
+          <a class="flex lg:hidden" href=""
+            ><img
+              class="w-5"
+              src="./module/img/header-section/hamburger-button.svg"
+              alt="hamburger icon"
+          /></a>
+
+          <ul
+            class="nav-bar-list hidden items-center gap-7 text-base lg:flex 2xl:gap-12"
+          >
+            <li class="ease-linear duration-200 hover:text-[#2563EB]">
+              <a href="">Home</a>
+            </li>
+            <li class="ease-linear duration-200 hover:text-[#2563EB]">
+              <a href="">Category</a>
+            </li>
+            <li class="ease-linear duration-200 hover:text-[#2563EB]">
+              <a href="">Service</a>
+            </li>
+            <li class="ease-linear duration-200 hover:text-[#2563EB]">
+              <a href="">Blog</a>
+            </li>
+            <li class="ease-linear duration-200 hover:text-[#2563EB]">
+              <a href="">Contact</a>
+            </li>
+            <li>
+              <button
+                class="w-40 h-14 rounded-md text-base px-2 bg-[#FDD76E] hover:bg-yellow-400 duration-200 ease-linear transition-colors transform-none active:border-yellow-400 active:bg-yellow-500 active:duration-0 active:border-4"
+                type="button"
+              >
+                Create Account
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <header
+        class="relative flex flex-row justify-center items-center mt-16 lg:mt-16 z-10"
+      >
+        <div class="flex flex-col w-11/12 lg:w-3/4 lg:flex-row 2xl:w-3/5">
+          <div
+            class="flex flex-col gap-7 lg:pr-16 lg:basis-1/2 lg:mt-10 2xl:mt-12"
+          >
+            <div class="flex flex-col gap-3">
+              <div class="flex items-baseline gap-2">
+                <p class="text-lg text-[#1374F6]">CREATIVE AGENCY</p>
+                <div class="w-7 h-[0.125rem] bg-[#1374F6]"></div>
+              </div>
+              <h1 class="text-5xl font-medium text-[#0B0757]">
+                We are here to give <br class="inline md:hidden lg:inline" />the
+                best service
+              </h1>
+            </div>
+            <p class="text-lg text-[#8480AE]">
+              It's crafted with the latest trend of design & coded with all
+              modern approaches. It's a robust & multi-dimensional usable
+              template.
+            </p>
+            <div
+              class="get-started-section flex items-center gap-8 justify-center lg:justify-start"
+            >
+              <button
+                type="button"
+                class="w-48 h-[4.5rem] rounded-md text-white text-xl bg-[#1374F6] lg:w-36 lg:h-14 lg:text-base hover:bg-blue-600 duration-200 ease-linear transition-colors transform-none active:border-blue-600 active:bg-blue-700 active:duration-0 active:border-4"
+              >
+                Get Started
+              </button>
+              <a
+                class="inline-flex items-center gap-3 text-xl lg:text-base"
+                href=""
+                ><img
+                  class="w-7 lg:w-6"
+                  src="./module/img/header-section/watch-video-icon.svg"
+                  alt=""
+                />Watch Video</a
+              >
+            </div>
+          </div>
+
+          <figure
+            class="header-img-section flex justify-center mt-[4.5rem] lg:basis-1/2 lg:justify-end lg:mt-0"
+          >
+            <div class="relative">
+              <img
+                class="h-[450px] lg:h-[500px] 2xl:h-[614px]"
+                src="./module/img/header-section/header-man-image.svg"
+                alt="male"
+              />
+
+              <aside
+                class="realtime-users-section absolute flex flex-col justify-center items-center gap-1 w-[7.5rem] h-[10rem] top-[2rem] right-[-4.5rem] px-4 rounded-xl bg-white shadow-lg lg:w-[8.5rem] lg:h-[11.5rem] lg:gap-2 lg:top-[1.75rem] lg:right-[-5.25rem] 2xl:w-[9.5rem] 2xl:h-[13rem] 2xl:top-[2.75rem] 2xl:right-[-5.25rem]"
+              >
+                <p
+                  class="text-[0.7rem] text-[#97A0C3] lg:text-sm 2xl:text-base"
+                >
+                  Realtime Users
+                </p>
+                <div class="self-start">
+                  <p
+                    class="text-lg font-semibold text-[#0B0757] lg:text-2xl 2xl:text-3xl"
+                  >
+                    553
+                  </p>
+                  <p class="text-sm inline-flex text-[#04B78A] 2xl:text-base">
+                    +21.01%
+                    <img
+                      class="ml-3 w-[12px] 2xl:w-[13.5px]"
+                      src="./module/img/header-section/realtime-user-percent-logo.svg"
+                      alt=""
+                    />
+                  </p>
+                </div>
+
+                <img
+                  src="./module/img/header-section/realtime-user-graph.svg"
+                  alt=""
+                />
+              </aside>
+
+              <aside
+                class="users-section flex absolute left-[-4.5rem] bottom-[-4rem] flex-col justify-center items-start gap-3 w-[8.75rem] h-[15rem] pl-6 rounded-xl text-[#1F1E61] bg-white shadow-lg lg:w-[10rem] lg:h-[16rem] lg:left-[-5.25rem] lg:bottom-[-1.5rem] 2xl:w-[11rem] 2xl:h-[17rem]"
+              >
+                <img
+                  class="absolute h-[4.25rem] top-[-1.75rem] right-[-1.75rem] flex self-start lg:h-[79.95px] lg:top-[-2rem] lg:right-[-1.75rem]"
+                  src="./module/img/header-section/user-chat-logo.svg"
+                  alt="user chat logo"
+                />
+                <p class="text-sm font-semibold lg:text-base">Users</p>
+                <div class="flex gap-3 items-center">
+                  <img
+                    src="./module/img/header-section/header-user-01.svg"
+                    alt="user number 1"
+                  />
+                  <div>
+                    <p class="text-[0.7rem] font-semibold lg:text-xs">Michel</p>
+                    <p class="text-[0.7rem] text-[#8480AE] lg:text-xs">
+                      Simplify
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex gap-3 items-center">
+                  <img
+                    src="./module/img/header-section/header-user-02.svg"
+                    alt="user number 2"
+                  />
+                  <div>
+                    <p class="text-[0.7rem] font-semibold lg:text-xs">Clark</p>
+                    <p class="text-[0.7rem] text-[#8480AE] lg:text-xs">
+                      Simplify
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex gap-3 items-center">
+                  <img
+                    src="./module/img/header-section/header-user-03.svg"
+                    alt="user number 3"
+                  />
+                  <div>
+                    <p class="text-[0.7rem] font-semibold lg:text-xs">Gereds</p>
+                    <p class="text-[0.7rem] text-[#8480AE] lg:text-xs">
+                      Simplify
+                    </p>
+                  </div>
+                </div>
+
+                <button
+                  class="w-24 h-8 rounded-lg text-xs text-white bg-[#00B894] lg:w-28 lg:h-10 2xl:w-32 2xl:h-10 hover:bg-teal-600 duration-200 ease-linear transition-colors transform-none active:border-teal-600 active:bg-teal-700 active:duration-0 active:border-4"
+                  type="button"
+                >
+                  Message
+                </button>
+              </aside>
+            </div>
+          </figure>
+        </div>
+      </header>
+      <div class="absolute top-0 left-0 header-background bg-[#F4F7FC]"></div>
+    </section>
+
     <main class="flex flex-col items-center">
-      <!-- dev tae 1 -->
       <!-- dev tong2 -->
       <section
       class="container2  w-[100vw] h-[1341px] relative sm:h-[626px] sm:py-15"
@@ -93,8 +290,8 @@
             modern approaches.
           </p>
         </div>
-        <di
-          class="perfect-testing relative left-9 top-16 w-[244px] h-[238px] sm:left-[150px]"
+        <div
+          class="perfect-testing relative left-9 top-16 w-[244px] h-[238px] border-2 sm:left-[150px]"
         >
           <figure class="logo-block w-[79.95px] h-[79.95px]">
             <img
@@ -914,6 +1111,6 @@
         <div class="mb sm:hidden">Copyright ©2020 Agencio</div>
       </section>
     </footer>
-    
+
   </body>
 </html>
